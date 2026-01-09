@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI-Based Adaptive LoRa Network</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI-Based Adaptive LoRa Network Dashboard</h1>
+
+    <div class="status">
+        <div>Frequency: <span id="freq">865.3 MHz</span></div>
+        <div>RSSI: <span id="rssi">-70 dBm</span></div>
+        <div>SNR: <span id="snr">8 dB</span></div>
+        <div>PDR: <span id="pdr">98%</span></div>
+        <div>Status: <span id="state">Stable</span></div>
+    </div>
+
+    <div class="log">
+        <h3>AI Decision Log</h3>
+        <div id="logBox"></div>
+    </div>
+
+    <div class="controls">
+        <button onclick="simulateInterference()">Simulate Interference</button>
+        <button onclick="frequencyHop()">Force Frequency Hop</button>
+        <button onclick="nodeFailure()">Simulate Node Failure</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
