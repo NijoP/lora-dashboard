@@ -1,0 +1,63 @@
+body {
+    background-color: #0f172a;
+    font-family: Arial, sans-serif;
+    color: #e5e7eb;
+}
+
+.container {
+    width: 900px;
+    margin: 40px auto;
+    background: #020617;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.status {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.status div {
+    background: #020617;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+}
+
+.log {
+    margin-bottom: 25px;
+}
+
+#logBox {
+    height: 140px;
+    background: #020617;
+    border: 1px solid #334155;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+.controls {
+    text-align: center;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
